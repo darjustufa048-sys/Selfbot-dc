@@ -1,0 +1,27 @@
+{
+  "name": "discord-selfbot-gemini",
+  "version": "1.0.0",
+  "description": "Discord self-bot with Gemini AI auto-reply and server cloning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "discord",
+    "selfbot",
+    "gemini",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "discord.js-selfbot-v13": "^3.4.0",
+    "dotenv": "^16.4.5"
+  }
+}
